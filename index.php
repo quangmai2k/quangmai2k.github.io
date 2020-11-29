@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omnifood</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/1.3 grid.css">
 </head>
 <body>
     <header>
@@ -24,9 +27,47 @@
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food. <br>Hello super healthy meals</h1>
-            <a class="btn btn-full" href="#">I'm hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full" href="https://www.facebook.com/beptrump21b6">I'm hungry</a>
+            <a class="btn btn-ghost" href="https://www.facebook.com/beptrump21b6">Show me more</a>
         </div>
     </header>
+    <section class="section-features">
+        <div class="row">
+            <h2>Get food fast &mdash; not fast food</h2>
+            <p class="long-copy">
+                Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <i class=" fas fa-heart "></i>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                    Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="fas fa-clock-o "></i>
+                <h3>Ready in 20 minutes</h3>
+                <p>
+                    You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="fas fa-carrot"></i>
+                <h3>100% organic</h3>
+                <p>
+                    All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>Order anything</h3>
+                <p>
+                    We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+                </p>
+            </div>   
+        </div>    
+    </section>
 </body>
 </html>
