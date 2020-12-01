@@ -69,5 +69,10 @@
             </div>   
         </div>    
     </section>
+    <section>
+        <?php
+            $conn=mysqli_connect('localhost','root','','test')
+        ?>
+    </section>
 </body>
 </html>
